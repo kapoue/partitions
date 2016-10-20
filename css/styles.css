@@ -1,0 +1,405 @@
+.header {
+
+}
+
+.title {
+	padding-bottom: 30px;
+	text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+}
+
+.buttons {
+	height: 46px;
+	margin-bottom: 50px;
+}
+
+#pages {
+	height: 868px;
+	overflow: hidden;
+}
+
+#premiere-page {
+	height: 867px;
+	background: url(../img/gala_concert-15-01-2015cbeaucardet-06_back.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	padding-top: 100px;
+	position: relative;
+	z-index: 10;
+	transition: all 2s;
+}
+
+	.premiere-page-bouge-left {
+		margin-right: 1160px;
+		margin-left: -1160px;
+	}
+
+	.premiere-page-bouge-right {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+.text-explanation {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+#deuxieme-page {
+	/*margin-top: -867px;*/
+	height: 100%;
+	position: relative;
+	z-index: 0;
+	top: -867px;
+	padding-top: 100px;
+	/*z-index: 20;*/
+	display: none;
+	background-color: #FAEBD7;
+}
+
+.title-second-page {
+	background: none repeat scroll 0% 0% #FFF;
+	border-radius: 50%;
+}
+
+.line {
+	height: 15px;
+	border-bottom: solid 1px black;
+}
+
+.portee-notes {
+	height: 225px;
+	position: relative;
+	padding-top: 40px;
+	background: none repeat scroll 0% 0% #FFF;
+	border-radius: 50%;
+}
+
+.portee {
+	height: 95px;
+	padding-top: 20px;
+}
+
+.notes {
+	height: 170px;
+	position: absolute;
+}
+
+.key-sol {
+	height: 100px;
+	background: url('../img/cle-sol.png') no-repeat center;
+	margin-top: 18px;
+}
+
+.key-fa {
+	height: 100px;
+	background: url('../img/cle-fa.png') no-repeat center;
+	margin-top: 10px;
+}
+
+.one-note {
+	width: 20px;
+	height: 14px;
+	background: #000;
+	border-radius: 50%;
+	/*margin-left: 30.769230769%;*/
+	position: relative;
+}
+
+.bar {
+	width: 40px;
+	position: absolute;
+	top: 7px;
+	left: -10px;
+	border-bottom: 1px solid #000;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+.bar-down {
+	 width: 40px;
+	 position: absolute;
+	 top: 14px;
+	 left: -10px;
+	 border-bottom: 1px solid #000;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+.bar-up {
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: -10px;
+	border-bottom: 1px solid #000;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+.bar-double {
+	width: 40px;
+	height: 16px;
+	position: absolute;
+	top: -9px;
+	left: -10px;
+	border: 1px solid #000;
+	border-right: 0;
+	border-left: 0;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+.queue-down {
+	border-left: 2px solid black;
+	height: 40px;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+	position: relative;
+	top: 6px;
+	left: -5px;
+}
+
+.queue-up {
+	border-right: 2px solid black;
+	height: 40px;
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+	position: relative;
+	top: -32px;
+	left: 5px;
+}
+
+/*Sol Octave 1*/
+
+.k-sol-octave1-do {
+	margin-top: 102px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-re {
+	margin-top: 95px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-mi {
+	margin-top: 87px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-fa {
+	margin-top: 80px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-sol {
+	margin-top: 72px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-la {
+	margin-top: 65px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave1-si {
+	margin-top: 57px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+/*/Sol Octave 1*/
+
+
+/*Sol Octave 2*/
+
+.k-sol-octave2-do {
+	margin-top: 50px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-re {
+	margin-top: 43px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-mi {
+	margin-top: 35px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-fa {
+	margin-top: 28px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-sol {
+	margin-top: 20px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-la {
+	margin-top: 13px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-sol-octave2-si {
+	margin-top: 6px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+/*/Sol Octave 2*/
+
+
+/*Fa Octave 1*/
+
+.k-fa-octave1-do {
+	margin-top: 65px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-re {
+	margin-top: 57px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-mi {
+	margin-top: 50px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-fa {
+	margin-top: 43px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-sol {
+	margin-top: 35px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-la {
+	margin-top: 28px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave1-si {
+	margin-top: 20px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+/*/Fa Octave 1*/
+
+/*Fa Octave 2*/
+
+.k-fa-octave2-do {
+	margin-top: 119px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-re {
+	margin-top: 111px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-mi {
+	margin-top: 103px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-fa {
+	margin-top: 96px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-sol {
+	margin-top: 87px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-la {
+	margin-top: 80px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.k-fa-octave2-si {
+	margin-top: 72px;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+/*/Fa Octave 2*/
+
+
+.choix-note {
+	margin-top: 50px;
+}
+
+.bonnenote {
+	background-color: green;
+}
+
+.mauvaisenote {
+	background-color: darkred;
+}
+
+.resultat-notes {
+	margin-top: 30px;
+}
