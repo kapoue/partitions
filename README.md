@@ -1,2 +1,0 @@
-# partitions
-Apprentissage du solfège
