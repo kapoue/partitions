@@ -1,0 +1,2 @@
+La page est hébergée chez GitHub compte "kapoue@gmail.com". L'adresse est https://kapoue.github.io/partitions/. Son fonctionnement est simple, il s'agit de la branch master du repo "partitions".
+Le domaine kapoue.net hébergé chez gandi est dirigé vers "https://kapoue.github.io" pour avoir comme adresse finale kapoue.net/partitions
